@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Neonderthaw&family=Rubik+Beastly&display=swap" rel="stylesheet">
+    </head>
+
+  <body>
+      <center>
+        <div class="header_div col-lg-12 col-md-12 col-xs-12" id="header">
+          <h1>Sound Controlled Alien Dance</h1>
+          <h4>Clap, snap, or whistle to make the aliens dance. Or the background noise-alien will dance.</h4>
+        </div> 
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div id="main">
+          <button class="btn btn-warning" id="start_mic" onclick="start_mic()">Start Mic</button>
+          <h3>Sound:</h3><h3 id="sound"></h3>
+          <h3>Accuracy:</h3><h3 id="accuracy"></h3>
+          <img id="alien1" src="Dog.png" class="col-lg-3 col-xs-3 col-md-3" height="225" width="200">
+          <img id="alien2" src="Cow.png" class="col-lg-3 col-xs-3 col-md-3" height="225" width="200">
+          <img id="alien3" src="https://www.freeiconspng.com/thumbs/cat-png/cat-png-17.png" class="col-lg-3 col-xs-3 col-md-3" height="225" width="200">
+          <img id="alien4" src="Sound.png" class="col-lg-3 col-xs-3 col-md-3" height="225" width="200">
+          <h3 class="col-lg-3 col-xs-3 col-md-3" id="s1">Dog</h3>
+          <h3 class="col-lg-3 col-xs-3 col-md-3" id="s2">Cow</h3>
+          <h3 class="col-lg-3 col-xs-3 col-md-3" id="s3">Cat</h3>
+          <h3 class="col-lg-3 col-xs-3 col-md-3" id="s4">Background</h3>
+        </div>
+      </center>
+      <div class="footer" id="footer">
+        <h3>Devloped by Ayaan Mittal</h3>
+      </div>
+<script src="main.js"></script>
+  </body>
+</html>

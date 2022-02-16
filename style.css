@@ -1,0 +1,18 @@
+h1{
+    font-family: 'Neonderthaw', cursive;
+}
+body{
+    background: linear-gradient(red,yellow);
+}
+.header_div{
+    background-color: lightblue;
+}
+#footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #161499;
+    color: cornsilk;
+    text-shadow:5px 2px 3px red;
+}
